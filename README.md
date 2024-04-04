@@ -29,7 +29,7 @@ Follow the instructions to download the source code, compile and run
 After compilation, the packaged file is a self executable jar file, with all dependencies
 
 ```
-git clone https://github.com/kishanraov/CoffeeShop.git
+git clone https://github.com/sandeepshekhawat/CoffeeShop-master.git
 cd CoffeeShop
 mvn clean package (or mvnw clean package) 
 java  -jar target/coffeeshop-service-0.0.1-SNAPSHOT.jar --apikey=provide a google geocode api key  --csvfile=full path of locations.csv
@@ -105,11 +105,6 @@ The Tomcat web server runs on port 8080.
 * [Eclipse](http://www.eclipse.org/downloads/) - The IDE used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Google](https://github.com/googlemaps/google-maps-services-java/) - Google Geo Coding Api
-
-
-## Authors
-
-* ** Kishan Rao Verukonda** - *Initial work* 
 
 
 ## License
